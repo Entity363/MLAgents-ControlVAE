@@ -34,7 +34,7 @@ pip install -e .
 ```
 
 ### Unity Side:
-
+Download the project file from here: https://drive.google.com/drive/folders/1Qa7TG7pu50j1gAVUXiIVxASu8M_-VUiM?usp=sharing
 Unpack the project file in `ControlVAE-Project/UnityControlVAE1.zip` and build the game in production mode.
 Or alternative unpack the build file in `ControlVAE-Project/ControlVAESimple.zip`
 
@@ -64,7 +64,7 @@ For an `Intel Core I7-11700K 3,60GHz` and an `NVIDIA RTX 3060 12GB` on 6 paralle
  - time to 20k iterations(full training): 120 hours/5 days
 
 ## Inference:
-
+Pretrained models are available here: https://drive.google.com/drive/folders/1m4XGigtKZet646kwean4QsP3KssCDEt8?usp=sharing
 ### Inside Unity:
 open `Maps/SimpleControlVAE` inside of the project, and load the `ControlVAE-5015552.onnx` in the behaviour parameters.
 Note that inference behaves much worse than training.
