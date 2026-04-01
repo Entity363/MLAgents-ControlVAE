@@ -37,7 +37,7 @@ pip install -e .
 Download the project file from here: https://drive.google.com/drive/folders/1Qa7TG7pu50j1gAVUXiIVxASu8M_-VUiM?usp=sharing  
 
 Unpack the project file in `ControlVAE-Project/UnityControlVAE1.zip` and build the game in production mode.
-Or alternative unpack the build file in `ControlVAE-Project/ControlVAESimple.zip`
+Or alternative unpack the build file in `ControlVAE-Project/ControlVAEwalkrunjumpgetup.zip`
 
 ## Training:
 ```
@@ -51,7 +51,7 @@ Args can be modified inside the run_training python script, or added to the comm
 ```
 "config/config.yaml", 
 "--resume",
-"--env=ControlVAE-Project/ControlVAESimple/UnityControlVAE1.exe",
+"--env=ControlVAE-Project/ControlVAEwalkrunjumpgetup/UnityControlVAE1.exe",
 "--no-graphics", 
 "--num-envs=5",
 ```
