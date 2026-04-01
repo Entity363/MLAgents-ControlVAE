@@ -1,0 +1,74 @@
+behaviors:
+  ControlVAE-Heading:
+    trainer_type: ControlVAE-Heading
+    max_steps: 20480000
+    time_horizon: 2048
+    summary_freq: 1
+    keep_checkpoints: 100
+    checkpoint_interval: 20480
+
+    network_settings:
+      normalize: true
+      hidden_units: 512
+      num_layers: 3
+
+    hyperparameters:
+      mode: "Inference"
+      type: "Heading"
+
+      with_noise: true
+      action_sigma: 0.05
+      replay_buffer_size: 50000
+      sub_iter: 8
+
+      encoder_hidden_size: 512
+      encoder_hidden_layer_num: 2
+      encoder_activation: 'ELU'
+      encoder_fix_var: 0.3
+
+      actor_hidden_size: 512
+      actor_hidden_layer_num: 3
+      actor_activation: 'ELU'
+      actor_num_experts: 6
+      actor_gate_hidden_size: 64
+
+      latent_size: 64
+
+      weight_l2: 0.001
+      weight_l1: 0.01
+      weight_kl: 0.1
+
+      policy_rollout_length: 40
+      controlvae_batch_size: 512
+      controlvae_lr: 0.00001
+      controlvae_weight_avel: 0.5
+      controlvae_weight_height: 1.2
+      controlvae_weight_pos: 0.2
+      controlvae_weight_rot: 0.1
+      controlvae_weight_up_dir: 3
+      controlvae_weight_vel: 0.5
+
+      world_model_rollout_length: 14
+      world_model_lr: 0.002
+      world_model_activation: 'ELU'
+      world_model_batch_size: 512
+      world_model_hidden_layer_num: 4
+      world_model_hidden_layer_size: 512
+
+      world_model_weight_pos: 1
+      world_model_weight_rot: 1
+      world_model_weight_vel: 4
+      world_model_weight_avel: 4
+
+      #heading
+      heading_lr: 0.001
+      heading_lr_multiplier: 0.99
+
+      weight_dir: 1
+      weight_speed: 0.2
+      weight_fall_down: 100
+      weight_acs: 20
+
+      high_level_batch_sz: 512
+      high_level_rollout_len: 16
+    

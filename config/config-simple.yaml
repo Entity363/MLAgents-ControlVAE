@@ -1,0 +1,64 @@
+behaviors:
+  ControlVAE:
+    trainer_type: ControlVAE
+    max_steps: 20480000
+    time_horizon: 2048
+    summary_freq: 1
+    keep_checkpoints: 100
+    checkpoint_interval: 102400
+
+    network_settings:
+      normalize: true
+      hidden_units: 512
+      num_layers: 3
+
+    hyperparameters:
+      mode: "Training"
+      type: "Tracking"
+
+      with_noise: true
+      action_sigma: 0.05
+      replay_buffer_size: 80000 #to scale
+      sub_iter: 8
+
+      encoder_hidden_size: 512
+      encoder_hidden_layer_num: 2
+      encoder_activation: 'ELU'
+      encoder_fix_var: 0.3
+
+      actor_hidden_size: 512
+      actor_hidden_layer_num: 3
+      actor_activation: 'ELU'
+      actor_num_experts: 6
+      actor_gate_hidden_size: 64
+
+      latent_size: 64
+
+      weight_l2: 0.001
+      weight_l1: 0.01
+      weight_kl: 0.1
+
+      policy_rollout_length: 40 #to scale
+      controlvae_batch_size: 512
+      controlvae_lr: 0.0001   #changed from 1e-5
+      controlvae_weight_avel: 2 # 4x bigger than controlvae
+      controlvae_weight_height: 1.2 # 1.75x bigger #2
+      controlvae_weight_pos: 0.8  #4x bigger
+      controlvae_weight_rot: 0.2 #2x bigger
+      controlvae_weight_up_dir: 6 #1.5x bigger
+      controlvae_weight_vel: 6 #6x bigger  #3
+
+ 
+      world_model_rollout_length: 14 #to scale
+      world_model_lr: 0.002
+      world_model_activation: 'ELU'
+      world_model_batch_size: 512
+      world_model_hidden_layer_num: 4
+      world_model_hidden_layer_size: 512
+
+      world_model_weight_pos: 10 #10x bigger
+      world_model_weight_rot: 10 #10x bigger
+      world_model_weight_vel: 40 #10x bigger
+      world_model_weight_avel: 40 #10x bigger
+
+    
