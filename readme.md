@@ -34,7 +34,8 @@ pip install -e .
 ```
 
 ### Unity Side:
-Download the project file from here: https://drive.google.com/drive/folders/1Qa7TG7pu50j1gAVUXiIVxASu8M_-VUiM?usp=sharing
+Download the project file from here: https://drive.google.com/drive/folders/1Qa7TG7pu50j1gAVUXiIVxASu8M_-VUiM?usp=sharing  
+
 Unpack the project file in `ControlVAE-Project/UnityControlVAE1.zip` and build the game in production mode.
 Or alternative unpack the build file in `ControlVAE-Project/ControlVAESimple.zip`
 
