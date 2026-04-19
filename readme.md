@@ -98,7 +98,7 @@ Add an animator component with the animator and avatar.
 ### Step 3:
 Create a scene, let's call it `Motion` and import both `Sim` and `Target`.
 
-Add a floor with a collider, and add it to the `Floor` Layer.
+Add a floor with a collider, and add it to the `Floor` Layer, add a physics material with Static Friction to 5, and Dynamic Friction to 5.
 
 Add an empty object to the scene, and add a ControlVAEController script to it.
 
