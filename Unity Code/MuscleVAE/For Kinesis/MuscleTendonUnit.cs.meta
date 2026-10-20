@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c4eea983f6ceed74f84f9f50826d854d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206089
+  packageName: Kinesis - Physical Muscle Model Based Movement
+  packageVersion: 1.0.0
+  assetPath: Assets/Kinesis/Scripts/Core/MuscleTendonUnit.cs
+  uploadId: 465016

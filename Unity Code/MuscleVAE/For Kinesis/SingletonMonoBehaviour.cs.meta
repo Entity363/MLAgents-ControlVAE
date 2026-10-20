@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fe6f3ab3f8e8187419c2ea778fd5fc40
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206089
+  packageName: Kinesis - Physical Muscle Model Based Movement
+  packageVersion: 1.0.0
+  assetPath: Assets/Kinesis/Scripts/Library/SingletonMonoBehaviour.cs
+  uploadId: 465016

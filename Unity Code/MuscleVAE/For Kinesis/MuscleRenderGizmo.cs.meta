@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3342eb58bdb66004b9f2e8245240b917
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206089
+  packageName: Kinesis - Physical Muscle Model Based Movement
+  packageVersion: 1.0.0
+  assetPath: Assets/Kinesis/Scripts/Components/MuscleRenderGizmo.cs
+  uploadId: 465016

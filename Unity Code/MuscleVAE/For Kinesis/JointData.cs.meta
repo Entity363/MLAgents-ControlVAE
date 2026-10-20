@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a0a1578cdb9d7f54b98f4e5b30944dd8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206089
+  packageName: Kinesis - Physical Muscle Model Based Movement
+  packageVersion: 1.0.0
+  assetPath: Assets/Kinesis/Scripts/Components/JointData.cs
+  uploadId: 465016
