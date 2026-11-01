@@ -2,6 +2,10 @@
 Implementation of the [ControlVAE](https://heyuanyao-pku.github.io/Control-VAE/) Algorithm in Unity [ML-Agents](https://github.com/unity-technologies/ml-agents) 
 [CURRENTLY INCOMPLETE].
 
+
+https://github.com/user-attachments/assets/98648c88-83ff-4955-bc26-5ef60bad6709
+
+
 #### ⚠️ note: currently inference is unstable due to mismatch between torch and sentis(the emoji was intentional)
 
 ## INSTALLATION(Requires conda):
